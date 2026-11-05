@@ -1,0 +1,13 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "groups",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "routeKey", "order": "ASCENDING" },
+        { "fieldPath": "departure", "order": "ASCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
